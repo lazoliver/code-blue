@@ -23,14 +23,15 @@
 #profission-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    width: 30vw;
-    padding-top: 60px;
     padding: 30px 15px;
+    border-radius: 0px 15px 15px 0px;
     background-color: rgb(99, 99, 99);
     color: rgb(255, 255, 255);
 }
 
 #profission {
+    display: flex;
+    justify-content: center;
     padding-bottom: 20px;
 }
 
@@ -40,6 +41,7 @@
 
 #profission-hard_skill {
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 #hard_skill-list li, #contact-list li {
@@ -63,15 +65,18 @@
 
 /* me-container styles */
 
+#me-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 75vw;
+    padding: 30px 15px;
+}
+
 #me-infos {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#me-container {
-    width: 70vw;
-    padding: 30px 15px;
 }
 
 #me-infos, #resume, #resume-text, #me-list {
@@ -80,6 +85,20 @@
 
 #resume-text, #me-list li {
     padding: 5px 10px;
+}
+
+#resume-text {
+    text-align: justify;
+    padding-right: 60px;
+    line-height: 22px;
+}
+
+#resume-title, #formation {
+    padding-left: 40px;
+}
+
+span {
+    padding-left: 10px;
 }
 
 /* estilizando links */
