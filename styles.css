@@ -1,0 +1,91 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+/* grid-template */
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#profission-container, #me-container {
+    height: 100vh;
+}
+
+/* profission-container styles */
+
+#profission-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 30vw;
+    padding-top: 60px;
+    padding: 30px 15px;
+    background-color: rgb(99, 99, 99);
+    color: rgb(255, 255, 255);
+}
+
+#profission {
+    padding-bottom: 20px;
+}
+
+#profission-section, #contact-section {
+    padding: 30px 15px
+}
+
+#profission-hard_skill {
+    padding-bottom: 10px;
+}
+
+#hard_skill-list li, #contact-list li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#contact-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+#contact {
+    padding-bottom: 20px;
+}
+
+#contact-list li {
+    padding-left: 10px;
+}
+
+/* me-container styles */
+
+#me-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#me-container {
+    width: 70vw;
+    padding: 30px 15px;
+}
+
+#me-infos, #resume, #resume-text, #me-list {
+    padding: 30px 15px;
+}
+
+#resume-text, #me-list li {
+    padding: 5px 10px;
+}
+
+/* estilizando links */
+
+a, a:hover, a:link, a:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
