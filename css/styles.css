@@ -29,7 +29,7 @@
     color: rgb(255, 255, 255);
 }
 
-#profission {
+#profission, #contact {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -95,10 +95,6 @@
 
 #resume-title, #formation {
     padding-left: 40px;
-}
-
-span {
-    padding-left: 10px;
 }
 
 /* estilizando links */
